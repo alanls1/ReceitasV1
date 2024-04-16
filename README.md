@@ -1,7 +1,3 @@
-Claro! Aqui está um exemplo de README para sua página de Receitas:
-
----
-
 # Página de Receitas
 
 Esta é uma simples página de receitas que consome uma API externa para exibir uma lista de receitas. A página foi construída com Vanilla JavaScript, HTML e CSS.
