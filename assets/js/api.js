@@ -26,11 +26,11 @@ export const fechData = async function (queries, successCallback) {
   const url = `${ACCESS_POINT}?app_id=${APP_ID}&app_key=${API_KEY}&type=${TYPE}&${
     query ? `${query}` : ""
   }`;
-  console.log(url);
-  // const response = await fetch(url);
+  
+  const response = await fetch(url);
 
-  // if (response.ok) {
-  //   const data = await response.json();
-  //   successCallback(data);
-  // }
+  if (response.ok) {
+  const data = await response.json();
+     successCallback(data);
+   }
 };
